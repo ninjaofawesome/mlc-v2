@@ -67,7 +67,8 @@ a {
 
 .fa-link,
 .brand-link,
-.foot-link {
+.foot-link,
+.sidebar-link {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
   -o-transition: all 700ms ease-out;
@@ -80,11 +81,15 @@ a {
   .brand-link:focus,
   .foot-link:hover,
   .foot-link:active,
-  .foot-link:focus {
+  .foot-link:focus,
+  .sidebar-link:hover,
+  .sidebar-link:active,
+  .sidebar-link:focus {
     color: #666666; }
   .fa-link:visited,
   .brand-link:visited,
-  .foot-link:visited {
+  .foot-link:visited,
+  .sidebar-link:visited {
     color: #333333; }
 
 .press-title {
@@ -160,6 +165,19 @@ a {
   .button-slide-up:visited {
     color: #ffcc99;
     border: 2px solid #ffb347; }
+
+.side-navbar {
+  z-index: 1;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: blue; }
+  .side-navbar .menu-nav {
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0; }
+  .side-navbar .menu-item.nav-logo {
+    font-size: 1.25em; }
 
 .navigation {
   position: fixed;
@@ -246,18 +264,18 @@ a {
   text-align: center; }
 
 .intro {
-  background-color: #77d9d3; }
+  background-color: white; }
 
 .intro-title {
   font-size: 5em;
   font-weight: 900;
-  color: white;
+  color: #141414;
   margin: 10% 0 0 5%; }
 
 .intro-subtitle {
   font-size: 3em;
   font-weight: 300;
-  color: white;
+  color: #141414;
   margin: 5% 0 0 5%; }
 
 .mlc-welcome {

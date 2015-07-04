@@ -84,7 +84,8 @@ a{
 
 .fa-link,
 .brand-link,
-.foot-link {
+.foot-link,
+.sidebar-link {
   @include link-transition(700ms);
   text-decoration: none;
   color: $dk-gray;
