@@ -166,18 +166,34 @@ a {
     color: #ffcc99;
     border: 2px solid #ffb347; }
 
-.side-navbar {
-  z-index: 1;
-  width: 200px;
-  height: 100%;
-  position: fixed;
-  background-color: blue; }
-  .side-navbar .menu-nav {
-    list-style-type: none;
-    padding: 0 !important;
-    margin: 0; }
-  .side-navbar .menu-item.nav-logo {
-    font-size: 1.25em; }
+.side-nav {
+  position: relative; }
+  .side-nav .side-navbar {
+    z-index: 1;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    margin-left: -200px; }
+    .side-nav .side-navbar .menu-nav {
+      list-style-type: none;
+      padding: 0 !important; }
+    .side-nav .side-navbar .menu-item.nav-logo {
+      font-size: 1.25em; }
+  .side-nav .side-navbar-button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: white;
+    z-index: 2;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-radius: 0 5px 5px 0; }
+  .side-nav .nav-hamburgers {
+    margin: 25%; }
 
 .navigation {
   position: fixed;
@@ -269,13 +285,13 @@ a {
 .intro-title {
   font-size: 5em;
   font-weight: 900;
-  color: #141414;
+  color: #333333;
   margin: 10% 0 0 5%; }
 
 .intro-subtitle {
   font-size: 3em;
   font-weight: 300;
-  color: #141414;
+  color: #333333;
   margin: 5% 0 0 5%; }
 
 .mlc-welcome {
