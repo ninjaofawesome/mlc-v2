@@ -102,6 +102,10 @@ a {
 .bottom-text {
   padding-bottom: 100px; }
 
+.disclaimer {
+  margin-top: 25px;
+  font-weight: 700; }
+
 .enter-button {
   -webkit-transition: all 700ms ease-out;
   -moz-transition: all 700ms ease-out;
