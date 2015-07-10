@@ -2,12 +2,12 @@
   position: relative;
   .side-navbar{
     z-index: 1;
-    width: 200px;
+    width: 250px;
     height: 100%;
     position: fixed;
     background-color: $white;
     // border-right: 1px solid $lt-gray;
-    margin-left: -200px;
+    margin-left: -250px;
 
     .menu-nav {
       list-style-type: none;
@@ -17,6 +17,20 @@
       &.nav-logo {
         font-size: 1.25em;
       }
+      &.underline {
+        font-weight: 700;
+        text-decoration: underline;
+      }
+      &.sm {
+        display: inline;
+      }
+    }
+    .close-button {
+      display: inline;
+      float: right;
+      font-size: 1.25em;
+      color: $blue;
+      cursor: pointer;
     }
   }
 
@@ -32,11 +46,12 @@
     border-right: 1px solid $dk-gray;
     border-bottom: 1px solid $dk-gray;
     border-radius: 0 5px 5px 0;
-
+    cursor: pointer;
   }
 
   .nav-hamburgers {
     margin: 25%;
+    cursor: pointer;
   }
 
 
