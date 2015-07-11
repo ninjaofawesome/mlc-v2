@@ -1,14 +1,14 @@
 (function(){
   console.log('side nav, yo');
-  $('.side-navbar-button .nav-hamburgers').click(function(){
+  $('.side-navbar-button').click(function(){
     console.log('click');
-    $('.side-navbar-button, .nav-hamburgers').fadeOut();
+    $(this).fadeOut();
     $('.side-navbar').delay(1200).css('margin-left', '0px');
   });
 
   $('.close-button').click(function(){
-    $('.side-navbar').css('margin-left', '-250px');
-    $('.side-navbar-button, .nav-hamburgers').fadeIn()
+    $('.side-navbar').css('margin-left', '-265px');
+    $('.side-navbar-button').fadeIn()
 
 
   });

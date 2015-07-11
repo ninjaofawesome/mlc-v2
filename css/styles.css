@@ -178,7 +178,7 @@ a {
     height: 100%;
     position: fixed;
     background-color: white;
-    margin-left: -250px; }
+    margin-left: -265px; }
     .side-nav .side-navbar .menu-nav {
       list-style-type: none;
       padding: 0 !important; }
@@ -198,19 +198,17 @@ a {
   .side-nav .side-navbar-button {
     width: 30px;
     height: 30px;
+    line-height: 30px;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 0;
-    background: white;
+    background: #77d9d3;
+    color: white;
     z-index: 2;
-    border-top: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
     border-radius: 0 5px 5px 0;
-    cursor: pointer; }
-  .side-nav .nav-hamburgers {
-    margin: 25%;
-    cursor: pointer; }
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle; }
 
 .navigation {
   position: fixed;
