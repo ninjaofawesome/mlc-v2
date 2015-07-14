@@ -196,9 +196,9 @@ a {
       color: #77d9d3;
       cursor: pointer; }
   .side-nav .side-navbar-button {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     position: absolute;
     top: 5px;
     left: 0;
@@ -208,7 +208,9 @@ a {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     text-align: center;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-size: 1.5em;
+    font-weight: 700; }
 
 .navigation {
   position: fixed;
@@ -298,10 +300,12 @@ a {
   background-color: white; }
 
 .intro-title {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 900;
   color: #333333;
-  margin: 10% 0 0 5%; }
+  margin: 25% 0 0 5%;
+  text-transform: uppercase;
+  font-family: "neutraface titling", Futura, "Trebuchet MS", Arial, sans-serif; }
 
 .intro-subtitle {
   font-size: 3em;
